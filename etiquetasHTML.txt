@@ -1,0 +1,20 @@
+etiquetas html
+<h> 1,2,3,4,5,6		titulo
+<p>			parrafo
+<br>			salto de linea
+<strong> 		negrita enfasis (SEO)
+<b>			negrita
+<em> 			cursiva enfasis (SEO)
+<i> 			cursiva
+---------------------------
+dentro del <body> --opcionales--
+
+<header>	encabezado
+<nav>		enlaces de navegacion menu
+<aside>		informacion adicional
+<section>	organizar por temas
+<article>	articulos
+<footer>	pie de pagina
+---------------------------
+
+
