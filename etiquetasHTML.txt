@@ -19,7 +19,40 @@ dentro del <body> --opcionales--
 ---------------------------
 <a>	enlaces
 	<a href="#nombreId"> a la misma pagina con "id"
+	<a href="htpps://nombrePagina.com"> abre enlace en la misma pagina
+	<a target="_blank" href="htpps://nombrePagina.com"> pagina en blanco
+	<a target="-blank" href="archivo.html"> otra pagina html
+	<a href="archivoADescargar.extension"> para descargar archivos
 
 < id="nombreId">
+--------------------------
+listas
+ordenadas
+<ol>	
+	<li>
+	<li>
+</ol>
 
+desordenadas
+<ul>
+	<li>
+	<li>
+</ul>
 
+<ul type="circle"> cambia a circulos
+<ul type="square"> cambia a cuadrados
+<ul type="none"> elimina los guiones de la lista
+
+<ol type="A"> ordena por letras mayusculas
+<ol type="a"> ordena por letras minusculas
+<ol type="I"> ordena por numero romanos en mayuscula
+<ol type="i"> ordena por numeros romanos en minuscula
+
+tambien es importante recalcar que se pueden colocar listas dentro de listas
+
+<dl>					lista de descripcion
+	<dt>nombre</dt>			nombre del termino
+		<dd>descripcion</dd>	descripcion del termino
+</dl>
+
+lo anterior es la forma de crear una lista de descripcion
