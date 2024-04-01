@@ -6,6 +6,7 @@ etiquetas html
 <b>			negrita
 <em> 			cursiva enfasis (SEO)
 <i> 			cursiva
+<hr>			linea divisoria
 ---------------------------
 dentro del <body> --opcionales--
 
@@ -16,5 +17,9 @@ dentro del <body> --opcionales--
 <article>	articulos
 <footer>	pie de pagina
 ---------------------------
+<a>	enlaces
+	<a href="#nombreId"> a la misma pagina con "id"
+
+< id="nombreId">
 
 
