@@ -1,4 +1,8 @@
 etiquetas html
+
+comentario fácil: 
+	ctrl+k+c
+
 <h> 1,2,3,4,5,6		titulo
 <p>			parrafo
 <br>			salto de linea
@@ -8,6 +12,8 @@ etiquetas html
 <i> 			cursiva
 <hr>			linea divisoria
 ---------------------------
+ORGANIZACION DE LA PAGINA - por conveción y buena práctica
+
 dentro del <body> --opcionales--
 
 <header>	encabezado
@@ -17,6 +23,8 @@ dentro del <body> --opcionales--
 <article>	articulos
 <footer>	pie de pagina
 ---------------------------
+ENLACES
+
 <a>	enlaces
 	<a href="#nombreId"> a la misma pagina con "id"
 	<a href="htpps://nombrePagina.com"> abre enlace en la misma pagina
@@ -26,8 +34,8 @@ dentro del <body> --opcionales--
 
 < id="nombreId">
 --------------------------
-listas
-ordenadas
+TIPOS DE LISTAS
+
 <ol>	
 	<li>
 	<li>
@@ -56,3 +64,70 @@ tambien es importante recalcar que se pueden colocar listas dentro de listas
 </dl>
 
 lo anterior es la forma de crear una lista de descripcion
+-----------------------------------------------
+IMAGENES
+
+<img 
+	src="direccionDeLaImagen.extension" 
+	alt="NombreSiLaImagenCarga"
+	tittle="NombreVisualAlPasarElMouse"
+	usemap="#nombreIdDelMapaAUsar"
+	with="anchoDeImagen"
+	height="altoDeImagen"
+>
+NOTA: tambien se pueden colocar dentro de una etiqueta <a> para que la imagen sirva de hipervinculo o link
+
+<map name="nombreIdentificador">
+
+	<area 	shape="TipoDeFigura" //se escribe en ingles
+
+		coords=" "	//Aqui se colocan las 
+				coordenadas, para esto nos 	
+				podemos valer de la pagina:
+				https://www.image-map.net/
+
+		href="direccionDeEnlace"
+		alt="NombreSiLaImagenCarga"
+	>
+</map>
+	
+NOTA: FIGURAS EN EL ARGUMENTO "shape" de area:
+	circle
+	rect
+	poly
+
+---------------------------------------
+TABLAS
+
+<table border="1">	//Este atributo permite establecer el
+			gruesor del borde de la tabla
+
+	<caption>Nombre de la Tabla</caption>
+
+	<thead>	//Esta etiqueta no cambia el aspecto visual de la
+		tabla pero se utiliza para colocar el encabezado y
+		resaltarlo algo MUY UTIL PARA DAR ENFASIS
+		EN LOS BUSCADORES DE BUSQUEDA Y SEO
+	<tr>			
+	      	<th colspan="7">//Este atributo permite establecer
+				la cantidad de columnas que va ocupar
+				esta Titulo
+		</th>
+	      	<th rowspan="3">//Este atributo permite establecer
+				la cantidad de Filas que va ocupar
+				esta Titulo
+		</th>
+	</tr>
+
+	<tr>	//---tableRow -fila de tabla---
+		<th> Titulos </th>	
+		<td> Datos </td>
+
+				//la cantidad de th,tr dependen 
+				de de la cantidad de columnas de
+				nuestra tabla
+
+	</tr> 	//Cierre de la fila //la cantidad de tr depende
+				de la cantidad de filas de 
+				nuestra tabla
+</table>	//Cierre de la tabla
