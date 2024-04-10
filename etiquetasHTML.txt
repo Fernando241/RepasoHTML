@@ -36,12 +36,13 @@ ENLACES
 --------------------------
 TIPOS DE LISTAS
 
+* listas ordenadas *
 <ol>	
 	<li>
 	<li>
 </ol>
 
-desordenadas
+* listas desordenadas *
 <ul>
 	<li>
 	<li>
@@ -58,6 +59,7 @@ desordenadas
 
 tambien es importante recalcar que se pueden colocar listas dentro de listas
 
+* listas de descripcion *
 <dl>					lista de descripcion
 	<dt>nombre</dt>			nombre del termino
 		<dd>descripcion</dd>	descripcion del termino
@@ -131,3 +133,111 @@ TABLAS
 				de la cantidad de filas de 
 				nuestra tabla
 </table>	//Cierre de la tabla
+
+------------------------------------------------------------
+FORMULARIOS EN HTML
+
+<form	action = "scrip.php" method = "" define la privacidad de los datos a enviar
+					"GET" sin importancia relevante
+					"POST" información de relevancia y cuidado
+						>
+
+	<input type =		//permite identificar el tipo de dato a ingresar
+
+			"text"		//ingresa datos de texto
+			"password" 	//ingresa datos ocultos
+			"email" 	//ingresa correos electronicos
+			"date" 		//permite enviar fechas
+			"radio" 	//permite seleccionar una entre varias opciones
+			"checkout"	//permite selecionar varias opciones al tiempo
+			"submit" 	//se oprime para enviar datos
+			"reset"		//permite limpiar todos los campos llenos
+
+		id = " "	//sirve para identificar
+
+		name = " "	//en text,password,email,date es lo que se envia al servidor
+	
+		value = " "	//en otros atributos es lo que se envia al servidor
+
+		placeholder = " "	//leyenda dentro de los cuadros para orientar al usurio
+	
+		requiered 	//no permite enviar el formulario si este campo esta vacio
+		
+		autofocus	//permite colocar el cursor y resaltar este campo
+		
+	>
+
+	<fieldset>
+		enmarca todo lo que esta dentro en el formulario
+		<legend> 
+			permite escribir un título que identifica lo que esta encerrado en el fieldset
+		</legend>
+	</fieldset>
+
+	<textarea	//cuadro de texto grande para descripciones
+
+			cols = "ancho en columnas"
+			rows = "alto en filas"
+			placeholder = "Descripción orientando al usuario"
+		>
+			texto orientativo borrable
+	</textarea>
+
+	<select name="" id = "">	//crea una lista de seleccion
+		<option value = "valor a enviar">	opcion 1	</option>
+		<option value = "valor a enviar">	opcion 2	</option>
+		<option value = "valor a enviar">	opcion 3	</option>
+	</select>
+
+</form>
+
+------------------------------------------------
+AUDIO
+
+---forma extendida--------------------------
+<audio	//permite insertar audio en la pagina
+	controls	//permite visualizar los archivos de audio
+	autoplay	//hace que el audio se reproduzca automaticamente
+	muted		//silencia el audio que se reproduce automaticamente
+	loop		//hace que el audio se repita automaticamente
+		>
+
+	<source
+		src = "direccion del audio a insertar"
+		type = "audio/mp3"	//depende del formato a usar
+			>
+</audio>
+
+	Nota: esta forma extendida me  permite colocar varios audio con la etiqueta source con diferentes formatos
+---forma directa
+
+<audio src"direccion del audio a insertar" -otros atributos- ></audio>
+
+------------------------------------------------
+VIDEO
+
+---forma extendida--------------------------
+<video	//permite insertar audio en la pagina
+	controls	//permite visualizar los controles, si no se agrega el usuario no tiene control sobre el video
+	autoplay	//hace que el audio se reproduzca automaticamente
+	muted		//silencia el audio que se reproduce automaticamente
+	loop		//hace que el audio se repita automaticamente
+		>
+
+	<source
+		src = "direccion del audio a insertar"
+		type = "video/mp4"	//depende del formato a usar
+		with = "especifica el ancho de mi video"
+		heigth = "especifica el alto de mi video"
+			>
+</video>
+
+---forma directa
+
+<video src"direccion del audio a insertar" -otros atributos- ></video>
+
+VIDEOS DE YOUTUBE
+
+<iframe> //esta etiqueta permite tomar parte de una pagina web y mostrarla en otra pagina web
+
+- Para compartir la forma simple es ir al video que se quiere compartir de youtube, se busca la opcion compartir y ahi sale un codigo que se copia y se pega en mi codigo y listo

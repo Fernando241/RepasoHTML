@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="imagen/png" href="/multimedia/educacion.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba Index</title>
@@ -10,46 +11,63 @@
     <!--HOY ENTENDÍ QUE LO VERADADERAMENTE IMPORTANTE ES LA PARAMETRIZACIÓN, EL APRENDER DE BUENAS PRÁCTICAS DE PROGRAMACIÓN, EL CÓDIGO NECESARIO SE PUEDE IR APRENDIENDO, PERO LO QUE REALMENTE LE DA VALOR A MI TRABAJO COMO PROGRAMADOR ES LA CAPACIDAD DE PENSAR, DE ORGANIZAR PROYECTOS, DE ENTENDER LAS NECECIDADES DE MI CLIENTE (OWNER PATHER) Y PENSAR, DISEÑAR Y CREAR SOLUCIONES EFICIENTES QUE SATISFAGAN E INCLUSO SOBREPASEN SUS EXPECTATIVAS, ESTA ES LA VERDADERA CAPACIDAD QUE NECESITO Y ES ESTA PRECISAMENTE LA QUE MEJOR POSEO, VALGO MUCHISIMO, SOY DE VALOR INCALCULABLE, ESA ES LA VERDADERA ESCENCIA DE FERNANDO ROLÓN-->
     <h1 id="principio">Aprendiento HTML</h1>
     <hr>
+    
+    <!-- Enlaces de navegación dentro de la misma pagina -->
     <nav>
         <a href="#begin">Introduccion</a>
         <a href="#ticket">Etiquetas</a>
         <a href="#url">Enlaces</a>
         <a href="#list">Listas</a>
         <a href="#table">Tablas</a>
+        <a href="#multimedia">Audio y Video</a>
+        <a href="#form">Formularios</a>
     </nav>
     <h2 id="begin">Introduccion</h2>
-    <!--here I put a image-->
+    <br>
+
+    <!-- Imagen png, buena estrategia como encabezado de una página web -->
     <img src="/img/mundoTurismo.gif" alt="imagen PNG" height="500px" title="Viajar Feliz">
     <!--The files gif are good options for my projects-->
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eaque ipsam veritatis accusamus, similique atque excepturi voluptates a, ab aperiam consequatur cupiditate itaque praesentium aliquid in aspernatur corporis quam quaerat.</p>
+
+    <!-- Es muy importante tener en cuenta todos los atributos de una etiqueta, en <a> target, href, id, etc -->
     <a target="_blank" href="https://wikipedia.org">enlace a wikipedia</a>
     <br>
     <a target="_blank" href="segundaPagina.html">otra pestaña</a>
     <br>
+    <!-- Descargar un archivo desde la página es un concepto bueno para recordar -->
     <a href="archivo.zip">descargar</a>
     <a href="#principio">principio</a>
     <!--  -->
-    <h2 id="ticket">Etiquetas</h2>
+    <h2 id="ticket">Etiquetas</h2> //los identificadores no solo me sirven para navegar sino además para agregar los estilo en CSS
     <br>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus repellendus debitis magnam corporis, iusto, saepe, omnis ratione error quas quos natus quae. Nulla eveniet nesciunt, maxime eius expedita adipisci pariatur!</p>
     <a href="#principio">principio</a>
 
     <h2 id="url">Enlaces</h2>
-    <!--imagen a usar-->
-    <img src="/img/pc.jpg" alt="pc" usemap="#pcParts">
-    <map name="pcParts">
-        <area shape="circle" coords="221,437,26" href="https://listado.mercadolibre.com.co/mouse#D[A:mouse]" title="comprar mouse">
+    <!--El uso de imagenes como links segun las areas especificas es algo realmente bueno,-->
+    <img src="/img/pc.jpg" alt="pc" usemap="#pcParts"> <!-- usemap: muy buen argumento -->
+    <map name="pcParts">    <!-- buena etiqueta que funciona junto a al etiqueta area -->
+        <area shape="circle" coords="221,437,26" href="https://listado.mercadolibre.com.co/mouse#D[A:mouse]" title="comprar mouse"> <!-- es importante tener en cuenta los argumentos a utilizar en cada etiqueta -->
         <area shape="poly" coords="221,437,221,411,101,338,72,88,370,123,394,311" href="https://listado.mercadolibre.com.co/monitores#D[A:monitores]" alt="monitor" title="comprar monitores">
         <area shape="poly" coords="221,437,221,411,101,338,72,88,370,123,394,311,239,411,458,372,536,392,310,439" href="https://listado.mercadolibre.com.co/teclado-gamer#D[A:teclado%20gamer]" title="comprar teclados">
     </map>
 
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur est adipisci explicabo sed alias nam, ratione iste esse nobis recusandae dolor facere? Nesciunt in sequi placeat impedit? Praesentium, maxime! Eligendi.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deleniti incidunt rerum similique, nemo quidem nesciunt atque quas. Doloremque eos quia, quo culpa inventore id aspernatur accusamus in dignissimos reiciendis.</p>
+    <!-- Otra imagen para consolidar conocimientos -->
+    <h3><strong>Articulos deportivos</strong></h3>
+    <br>
+    <img src="/img/articulos.jpg" alt="articulos" height="500px" usemap="#articulos">
+    <map name="articulos">
+        <area target="_blank" shape="poly" coords="269,268,252,237,250,189,266,157,290,115,339,107,348,107,360,80,378,53,395,31,419,10,441,13,456,38,472,55,482,86,490,109,533,108,553,118,584,177,588,206,593,241,577,267,548,280,501,285,441,292,366,286,326,285,292,278" href="https://listado.mercadolibre.com.co/mochilas-deportivas#D[A:mochilas%20deportivas]" alt="mochilas" title="Comprar mochilas">
+        <area target="_blank" shape="poly" coords="75,446,65,440,56,429,49,411,49,392,70,380,83,384,89,388,132,361,133,346,144,331,156,328,168,337,181,352,186,371,186,381,165,398,150,392,143,385,102,411,102,427,102,436,88,444" href="https://listado.mercadolibre.com.co/pesas-ejercicio#D[A:pesas%20ejercicio]" alt="pesas" title="Comprar pesas">
+    </map>
     <br>
     <a href="#principio">principio</a>
     
     <h2 id="list">Listas</h2>
+
+    <!-- LISTAS DESORDENADAS -->
     <ul type="circle">
         <li>item</li>
         <li>item</li>
@@ -61,6 +79,8 @@
         <li>item</li>
     </ul>
     <hr>
+
+    <!-- LISTAS DE DATOS -->
     <dl>
         <dt>Nombre</dt>
         <dd>Juan</dd>
@@ -72,6 +92,8 @@
         <dd>25/01/2022</dd>
     </dl>
     <hr>
+
+    <!-- LISTAS ORDENADAS -->
     <ol type="i">
         <li>item</li>
         <li>item</li>
@@ -81,13 +103,21 @@
     
     <a href="#principio">principio</a>
     <br>
+    
+    <!-- TABLAS -->
     <h2 id="table">Tablas</h2>
     <table border="1">
-        <caption>Mi horario</caption>
-        <tr>
-            <th colspan="5">HORARIO Dias Laborales</th>
-            <th colspan="2">Fin de semana</th>
-        </tr>
+        <!-- Título de la tabla -->
+        <caption>Mi horario</caption> 
+        
+        <!-- Cabecera de la tabla, el thead es para resaltar en SEO -->
+        <thead>
+            <tr>
+                <th colspan="5">HORARIO Dias Laborales</th>
+                <th colspan="2">Fin de semana</th>
+            </tr>
+        </thead>
+        
         <tr>
             <th>Lunes</th>
             <th>Martes</th>
@@ -123,6 +153,77 @@
             <td>Descansar</td>
         </tr>
     </table>
+    <br>
+    <a href="#principio">principio</a>
+
+    <!-- Audio y Video -->
+    <h2 id="multimedia">Audio y Video</h2>
+    <!-- audio forma extendida -->
+    <audio controls autoplay muted loop>
+        <source src="/multimedia/just-relax-11157.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- audio forma directa -->
+    <audio src="/multimedia/just-relax-11157.mp3" controls></audio>
+    <br>
+    <!-- video forma extendida -->
+    <video controls autoplay loop  width="800">
+        <source src="/multimedia/robotProgramando.mp4" type="video/mp4">
+    </video>
+    <br>
+    <!-- Video compartido desde youtube -->
+    <h3>Vidio Compartido desde YouTube</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/akFzU5K8VL0?si=t1gk6T94SMb3Hh2e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <a href="#principio">principio</a>
+    <br>
+
+    <!-- FORMULARIOS -->
+
+    <h2 id="form">Formularios</h2>
+    <form action="">
+        <fieldset>
+            <legend>Datos del Usuario</legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="txt_nombre" placeholder="Nombre" required><br><br>
+            <label for="txt_correo">Correo electrónico</label>
+            <input type="email" id="corrreo" name="txt_correo" placeholder="correo" required><br><br>
+            <label for="pass">Contraseña:</label>
+            <input type="password" id="pass" name="txt_pass" placeholder="Contraseña" required><br><br>
+            <label for="txt_edad">Edad:</label>
+            <input type="date" id="txt_edad" required><br><br>
+            <textarea name="txt_descripcion" id="descripcion" cols="30" rows="10" placeholder="descripcion" required></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Color favorito</legend>
+            <input type="radio" name="color" value="rojo"> Rojo
+            <input type="radio" name="color" value="amarillo"> Amarillo
+            <input type="radio" name="color" value="verde"> Verde
+            <input type="radio" name="color" value="azul"> Azul
+            <br><br>
+            <label for="color2">Selecione un color en la lista</label>
+            <select name="color2" id="color2">
+                <option value="rojo">Rojo</option>
+                <option value="amarillo">Amarillo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </select>
+        </fieldset>
+
+        <!-- Es escribir simplemente fuera de las etiquetas ayuda mucho sino voy a darle un estilo ya que me ahorra un label, habrá que ver si es considerado una buena práctica en programación -->
+        <fieldset>
+            <legend>Hobies</legend>
+            <input type="checkbox" name="hobbie1" value="ciclismo"> Ciclismo
+            <input type="checkbox" name="hobbie2" value="futbol"> Futbol
+            <input type="checkbox" name="hobbie3" value="tenis"> Tenis
+            <input type="checkbox" name="hobbie4" value="voleibol"> voleibol
+        </fieldset>
+        <br>
+        <!-- botones para enviar y limpiar -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar">
+    </form>
     <br>
     <a href="#principio">principio</a>
 </body>
