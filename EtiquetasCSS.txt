@@ -1,0 +1,13 @@
+nombre de la etiqueta {
+	todos los atributos para esta etiqueta
+}
+
+background-color	//color fondo
+color			//color 
+padding			//tamaño margen interna
+border			//grueso de borde
+@import			//para importa fuentes,etc
+font-family		//Tipo de fuente
+font-size		//tamaño de la fuente
+font-aling		//alinear el texto
+text-shadow		//agregar una sombra

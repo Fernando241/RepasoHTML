@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="imagen/png" href="/multimedia/educacion.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
 </head>
 <body>
-    
+    <h1>Formulario de inscripción</h1>
+    <form method="POST" action="/login">
+        <fieldset>
+            <legend>Datos</legend>
+            <label for="nombre">Nombre: </label><br>
+            <input type="text" id="nombre" name="txt_nombre"><br>
+            <label for="correo">Correo: </label><br>
+            <input type="email" id correo name="correo"><br>
+            <label for="fn">Fecha de nacimiento: </label><br>
+            <input type="date" id="fn" name="fn"><br>
+            <label for="pass">Contraseña: </label><br>
+            <input type="password" id="pass" name="pass"><br><br>
+            <input type="submit">
+            <input type="reset" name="" id="">
+        </fieldset>
+    </form>
 </body>
 </html>

@@ -241,3 +241,75 @@ VIDEOS DE YOUTUBE
 <iframe> //esta etiqueta permite tomar parte de una pagina web y mostrarla en otra pagina web
 
 - Para compartir la forma simple es ir al video que se quiere compartir de youtube, se busca la opcion compartir y ahi sale un codigo que se copia y se pega en mi codigo y listo
+
+---------------------------------------------------
+Graficos SVG
+
+<svg		//para generar grafico svg
+	width = "ancho", height = "alto"> tamaño de la ventana
+					de referencia	
+	<circle cx = "desplazamiento en x
+		cy = "desplazamiento en y
+		r = "valor del radio
+		stroke = "color contorno"
+		stroke-width = "grueso del controno
+		fill = "color de relleno" 
+					> </circle>
+
+	<line 	x1 = punto de partida en x
+		y1 = punto de partida en y
+		x2 = punto de llegada en x
+		x2 = punto de llegada en y
+		stroke = "color"
+		stroke-width = "ancho"
+
+	<polyline
+		points="coodenadas por pares x,y"
+					/>
+
+	<path>
+</svg>
+
+Nota: para figuras complejas, es mejor dibujarlas en corel, guardarlas en formato svg y luego darle abrir el archivo.svg con el block de notas y copio todo el codigo interno y lo pego en mi  html.
+
+--------------------------------------------------
+PAGINA Y OTRAS ETIQUETAS
+
+<button> 	//crea un boton
+	texto en el boton
+</button>
+
+<header>	//encabezado
+
+<footer>	//pie de página
+
+<section>	//seccion
+
+<article>	//para colocar articulos
+
+<aside>		//otra seccion de la página
+
+----------------------------------------------
+mis extensiones en Visual Studio Code
+
+Tabnine: AI Autocomplete
+
+Andromeda
+
+Auto Rename Tag
+
+Dracula Oficial
+
+Live Server
+
+Material Icon Theme
+
+One Dark Pro
+
+Palening Theme
+
+Spanish Language Pack
+
+SynthWave '84
+
+-----------------------------------------------
