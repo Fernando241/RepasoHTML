@@ -1,9 +1,43 @@
-<link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https: //fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&family=Play:wght@400;700&display=swap');
 
-body {
-    background-color: aquamarine;
+h1{
+    font-family: "Play", sans-serif;
+    font-size: 54px;
+    text-align: center;
+    color: cyan;
+    text-shadow: 2px 2px 5px black;
 }
-
-h1 {
-    font-family: 'Raleway', sans-serif;
+p{
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 18px;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+}
+p.capital::first-letter{
+    font-size: 50px;
+    color: cyan;
+    float: left;
+    background-color: blue;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+a:hover{
+    color: aqua;
+}
+.lineaDebajo{
+    text-decoration: underline;
+}
+.border{
+    border: 5px dashed grey;
+    margin: 10% 15% 10% 15%;
+    padding-bottom: 2%;
+    border-radius: 20px;
 }

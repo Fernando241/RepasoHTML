@@ -6,8 +6,34 @@ background-color	//color fondo
 color			//color 
 padding			//tamaño margen interna
 border			//grueso de borde
-@import			//para importa fuentes,etc
+	solid		//solido
+	dasher		//interlineado
+			//revisar otros
+border-radius:		//bordes redondeados
+@import			//para importa fuentes,etc /Google fonts
 font-family		//Tipo de fuente
 font-size		//tamaño de la fuente
 font-aling		//alinear el texto
 text-shadow		//agregar una sombra
+			valor1 distancia en x
+			valor2 distancia en y
+			valor3 difiminado
+			valor4 color
+text-decoration		//agregar o quitar decoracion en textos
+				ejemplo: subrayado- underline
+font-style:		//cambiar parametros de fuente
+			negrita, cursiva, etc.
+margin:			//margen
+margin-	left: 		//margen 
+	right:
+	up:
+	down:
+		auto	//se hace automatica
+
+::			//para usar seudoelementos
+	first-leter	//primera letra
+:			//otras clases de seudoelementos
+	hover		//cambios cuando el mouse este encima
+			//inspeccionar cuales más existen
+float: 			//
+

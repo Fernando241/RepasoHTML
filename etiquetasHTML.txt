@@ -11,6 +11,7 @@ comentario fácil:
 <em> 			cursiva enfasis (SEO)
 <i> 			cursiva
 <hr>			linea divisoria
+<span>			para seleccionar un texto en especifico
 ---------------------------
 ORGANIZACION DE LA PAGINA - por conveción y buena práctica
 
